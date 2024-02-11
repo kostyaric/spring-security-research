@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test?currentSchema=security
+    username: testuser
+    password: euflfq
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
